@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import AboutUsImage from "../images/aboutus.jpg";
 import { NavLink, useParams, useNavigate } from "react-router-dom";
 import Navbar from "../components/Navbar";
@@ -14,6 +14,12 @@ const ProductDetails = () => {
       cat.name === category ? cat.products : []
     )
   ).find((prod) => prod.id === parseInt(productId));
+
+  //Auto scroll to top
+    useEffect( () => {
+      window.scrollTo(0,0)
+    }, [])
+  
 
   // Add To cart
   const navigate = useNavigate();

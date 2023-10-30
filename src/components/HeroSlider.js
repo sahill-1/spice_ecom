@@ -4,6 +4,9 @@ import "react-multi-carousel/lib/styles.css";
 import img1 from "../images/spices banner 1.jpg";
 import img2 from "../images/spices banner 2.jpg";
 import img3 from "../images/spices banner 3.jpg";
+import img4 from "../images/spices banner 4.jpg";
+import img5 from "../images/spices banner 5.jpg";
+import img6 from "../images/spices banner 6.jpg";
 
 const HeroSlider = (props) => {
   const responsive = {
@@ -40,6 +43,15 @@ const HeroSlider = (props) => {
           </div>
           <div>
             <img src={img2} alt="" className="img-fuild" />
+          </div>
+           <div>
+            <img src={img4} alt="" className="img-fuild" />
+          </div>
+          <div>
+          <img src={img5} alt="" className="img-fuild" />
+          </div>
+          <div>
+          <img src={img6} alt="" className="img-fuild" />
           </div>
           <div>
             <img src={img3} alt="" className="img-fuild" />

@@ -130,6 +130,7 @@ const ProductApi = [
       },
     ],
   },
+
   {
     categories: [
       {
@@ -180,72 +181,244 @@ const ProductApi = [
       },
     ],
   },
+
   {
     categories: [
       {
-        id: 2,
+        id: 3,
         name: "footwear",
         products: [
           {
             id: 1,
-            img: require("../images/products/haldi powder.png"),
+            img: require("../images/products/footwear1.png"),
+            title: "abc",
+            gram: "15g. or 25g.",
+            category: "footwear",
+            price: "265.00"
+          },
+          {
+            id: 2,
+            img: require("../images/products/footwear2.png"),
             title: "haldi powder",
             gram: "15g. or 25g.",
-            category: "spice",
+            category: "footwear",
+            price: "265.00"
+          },
+          {
+            id: 3,
+            img: require("../images/products/footwear3.png"),
+            title: "haldi powder",
+            gram: "15g. or 25g.",
+            category: "footwear",
+            price: "265.00"
+          },
+          {
+            id: 4,
+            img: require("../images/products/footwear4.png"),
+            title: "haldi powder",
+            gram: "15g. or 25g.",
+            category: "footwear",
+            price: "265.00"
+          },
+          {
+            id: 5,
+            img: require("../images/products/footwear5.png"),
+            title: "haldi powder",
+            gram: "15g. or 25g.",
+            category: "footwear",
+            price: "265.00"
+          },
+          {
+            id: 6,
+            img: require("../images/products/footwear6.png"),
+            title: "haldi powder",
+            gram: "15g. or 25g.",
+            category: "footwear",
+            price: "265.00"
+          },
+          {
+            id: 7,
+            img: require("../images/products/footwear7.png"),
+            title: "haldi powder",
+            gram: "15g. or 25g.",
+            category: "footwear",
             price: "265.00"
           },
         ],
       },
     ],
   },
+
   {
     categories: [
       {
-        id: 2,
+        id: 4,
         name: "fashion",
         products: [
           {
             id: 1,
-            img: require("../images/products/haldi powder.png"),
+            img: require("../images/products/fashion1.png"),
             title: "haldi powder",
             gram: "15g. or 25g.",
-            category: "spice",
+            category: "fashion",
+            price: "265.00"
+          },
+          {
+            id: 2,
+            img: require("../images/products/fashion2.png"),
+            title: "haldi powder",
+            gram: "15g. or 25g.",
+            category: "fashion",
+            price: "265.00"
+          },
+          {
+            id: 3,
+            img: require("../images/products/fashion3.png"),
+            title: "haldi powder",
+            gram: "15g. or 25g.",
+            category: "fashion",
+            price: "265.00"
+          },
+          {
+            id: 4,
+            img: require("../images/products/fashion4.png"),
+            title: "haldi powder",
+            gram: "15g. or 25g.",
+            category: "fashion",
+            price: "265.00"
+          },
+          {
+            id: 5,
+            img: require("../images/products/fashion5.png"),
+            title: "haldi powder",
+            gram: "15g. or 25g.",
+            category: "fashion",
+            price: "265.00"
+          },
+          {
+            id: 6,
+            img: require("../images/products/fashion6.png"),
+            title: "haldi powder",
+            gram: "15g. or 25g.",
+            category: "fashion",
             price: "265.00"
           },
         ],
       },
     ],
   },
+
   {
     categories: [
       {
-        id: 2,
+        id: 5,
         name: "food",
         products: [
           {
             id: 1,
-            img: require("../images/products/haldi powder.png"),
+            img: require("../images/products/food1.png"),
             title: "haldi powder",
             gram: "15g. or 25g.",
-            category: "spice",
+            category: "food",
+            price: "265.00"
+          },
+          {
+            id: 2,
+            img: require("../images/products/food2.png"),
+            title: "haldi powder",
+            gram: "15g. or 25g.",
+            category: "food",
+            price: "265.00"
+          },
+          {
+            id: 3,
+            img: require("../images/products/food3.png"),
+            title: "haldi powder",
+            gram: "15g. or 25g.",
+            category: "food",
+            price: "265.00"
+          },
+          {
+            id: 4,
+            img: require("../images/products/food4.png"),
+            title: "haldi powder",
+            gram: "15g. or 25g.",
+            category: "food",
+            price: "265.00"
+          },
+          {
+            id: 5,
+            img: require("../images/products/food5.png"),
+            title: "haldi powder",
+            gram: "15g. or 25g.",
+            category: "food",
+            price: "265.00"
+          },
+          {
+            id: 6,
+            img: require("../images/products/food6.png"),
+            title: "haldi powder",
+            gram: "15g. or 25g.",
+            category: "food",
             price: "265.00"
           },
         ],
       },
     ],
   },
+
   {
     categories: [
       {
-        id: 2,
+        id: 6,
         name: "cosmetics",
         products: [
           {
             id: 1,
-            img: require("../images/products/haldi powder.png"),
+            img: require("../images/products/cosmatic1.png"),
             title: "haldi powder",
             gram: "15g. or 25g.",
-            category: "spice",
+            category: "cosmetics",
+            price: "265.00"
+          },
+          {
+            id: 2,
+            img: require("../images/products/cosmetic2.png"),
+            title: "haldi powder",
+            gram: "15g. or 25g.",
+            category: "cosmetics",
+            price: "265.00"
+          },
+          {
+            id: 3,
+            img: require("../images/products/cosmetic3.png"),
+            title: "haldi powder",
+            gram: "15g. or 25g.",
+            category: "cosmetics",
+            price: "265.00"
+          },
+          {
+            id: 4,
+            img: require("../images/products/cosmetic4.png"),
+            title: "haldi powder",
+            gram: "15g. or 25g.",
+            category: "cosmetics",
+            price: "265.00"
+          },
+          {
+            id: 5,
+            img: require("../images/products/cosmetic5.png"),
+            title: "haldi powder",
+            gram: "15g. or 25g.",
+            category: "cosmetics",
+            price: "265.00"
+          },
+          {
+            id: 6,
+            img: require("../images/products/cosmetic6.png"),
+            title: "haldi powder",
+            gram: "15g. or 25g.",
+            category: "cosmetics",
             price: "265.00"
           },
         ],

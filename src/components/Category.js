@@ -1,8 +1,10 @@
 import React from "react";
 import img1 from "../images/products/chicken masala.png";
 import img2 from "../images/products/haldi powder.png";
-import img3 from "../images/cat-3.jpg";
-import img4 from "../images/cat-4.jpg";
+import img3 from "../images/cat6.png";
+import img4 from "../images/cat7.png";
+import img5 from "../images/cat5.png";
+import img6 from "../images/cat8.png";
 import { NavLink } from "react-router-dom";
 
 const Category = () => {
@@ -59,7 +61,7 @@ const Category = () => {
                     <h2>
                       <NavLink href="product-details.html">Footwear</NavLink>
                     </h2>
-                    <p>2 product</p>
+                    <p>7 product</p>
                   </div>
                   <div className="category-thumb">
                     <NavLink href="product-details.html">
@@ -78,7 +80,7 @@ const Category = () => {
                         Fashion apparel
                       </NavLink>
                     </h2>
-                    <p>2 product</p>
+                    <p>6 product</p>
                   </div>
                   <div className="category-thumb">
                     <NavLink href="product-details.html">
@@ -97,11 +99,11 @@ const Category = () => {
                         Food and beverage
                       </NavLink>
                     </h2>
-                    <p>2 product</p>
+                    <p>6 product</p>
                   </div>
                   <div className="category-thumb">
                     <NavLink href="product-details.html">
-                      <img src={img4} alt="" />
+                      <img src={img5} alt="" />
                     </NavLink>
                   </div>
                 </div>
@@ -114,11 +116,11 @@ const Category = () => {
                     <h2>
                       <NavLink href="product-details.html">Cosmetics</NavLink>
                     </h2>
-                    <p>2 product</p>
+                    <p>6 product</p>
                   </div>
                   <div className="category-thumb">
                     <NavLink href="product-details.html">
-                      <img src={img4} alt="" />
+                      <img src={img6} alt="" />
                     </NavLink>
                   </div>
                 </div>
