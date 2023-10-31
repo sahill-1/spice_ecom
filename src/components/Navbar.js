@@ -1,7 +1,7 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import Logo from '../images/mr king logo.png';
-
+import Logo2 from "../images/newbanners/WhatsApp Image 2023-10-31 at 12.01.26 PM.jpeg";
 const Navbar = () => {
   return (
     <>
@@ -9,7 +9,7 @@ const Navbar = () => {
         <nav className="navbar navbar-expand-lg ">
           <div className="container">
             <a className="navbar-brand" href="#">
-              <img src={Logo} alt="" />
+              <img src={Logo2} alt="" />
             </a>
             <button
               className="navbar-toggler"

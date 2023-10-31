@@ -191,56 +191,49 @@ const ProductApi = [
           {
             id: 1,
             img: require("../images/products/footwear1.png"),
-            title: "abc",
-            gram: "15g. or 25g.",
+            title: "abcen Daily Wear Slipper",
             category: "footwear",
             price: "265.00"
           },
           {
             id: 2,
             img: require("../images/products/footwear2.png"),
-            title: "haldi powder",
-            gram: "15g. or 25g.",
+            title: "Black Running Shoe For Men",
             category: "footwear",
             price: "265.00"
           },
           {
             id: 3,
             img: require("../images/products/footwear3.png"),
-            title: "haldi powder",
-            gram: "15g. or 25g.",
+            title: "Sneakers For Men",
             category: "footwear",
             price: "265.00"
           },
           {
             id: 4,
             img: require("../images/products/footwear4.png"),
-            title: "haldi powder",
-            gram: "15g. or 25g.",
+            title: "Sneakers For Women",
             category: "footwear",
             price: "265.00"
           },
           {
             id: 5,
             img: require("../images/products/footwear5.png"),
-            title: "haldi powder",
-            gram: "15g. or 25g.",
+            title: "Daily Kids Footwear",
             category: "footwear",
             price: "265.00"
           },
           {
             id: 6,
             img: require("../images/products/footwear6.png"),
-            title: "haldi powder",
-            gram: "15g. or 25g.",
+            title: "Kids Shoes",
             category: "footwear",
             price: "265.00"
           },
           {
             id: 7,
             img: require("../images/products/footwear7.png"),
-            title: "haldi powder",
-            gram: "15g. or 25g.",
+            title: "Block Heel Women Sandal",
             category: "footwear",
             price: "265.00"
           },
@@ -258,48 +251,42 @@ const ProductApi = [
           {
             id: 1,
             img: require("../images/products/fashion1.png"),
-            title: "haldi powder",
-            gram: "15g. or 25g.",
+            title: "Bell Bottom Jeans For Women",
             category: "fashion",
             price: "265.00"
           },
           {
             id: 2,
             img: require("../images/products/fashion2.png"),
-            title: "haldi powder",
-            gram: "15g. or 25g.",
+            title: "Yellow Kurta For Kids",
             category: "fashion",
             price: "265.00"
           },
           {
             id: 3,
             img: require("../images/products/fashion3.png"),
-            title: "haldi powder",
-            gram: "15g. or 25g.",
+            title: "Navy Blue Frock For Kids",
             category: "fashion",
             price: "265.00"
           },
           {
             id: 4,
             img: require("../images/products/fashion4.png"),
-            title: "haldi powder",
-            gram: "15g. or 25g.",
+            title: "Green Kurti For Women",
             category: "fashion",
             price: "265.00"
           },
           {
             id: 5,
             img: require("../images/products/fashion5.png"),
-            title: "haldi powder",
-            gram: "15g. or 25g.",
+            title: "Round Neck T-Shirt For Men",
             category: "fashion",
             price: "265.00"
           },
           {
             id: 6,
             img: require("../images/products/fashion6.png"),
-            title: "haldi powder",
-            gram: "15g. or 25g.",
+            title: "Yellow Top For Women",
             category: "fashion",
             price: "265.00"
           },
@@ -317,48 +304,42 @@ const ProductApi = [
           {
             id: 1,
             img: require("../images/products/food1.png"),
-            title: "haldi powder",
-            gram: "15g. or 25g.",
+            title: "Mojito",
             category: "food",
             price: "265.00"
           },
           {
             id: 2,
             img: require("../images/products/food2.png"),
-            title: "haldi powder",
-            gram: "15g. or 25g.",
+            title: "Cold Coffee",
             category: "food",
             price: "265.00"
           },
           {
             id: 3,
             img: require("../images/products/food3.png"),
-            title: "haldi powder",
-            gram: "15g. or 25g.",
+            title: "Cold drinks",
             category: "food",
             price: "265.00"
           },
           {
             id: 4,
             img: require("../images/products/food4.png"),
-            title: "haldi powder",
-            gram: "15g. or 25g.",
+            title: "Burger",
             category: "food",
             price: "265.00"
           },
           {
             id: 5,
             img: require("../images/products/food5.png"),
-            title: "haldi powder",
-            gram: "15g. or 25g.",
+            title: "Biscuits",
             category: "food",
             price: "265.00"
           },
           {
             id: 6,
             img: require("../images/products/food6.png"),
-            title: "haldi powder",
-            gram: "15g. or 25g.",
+            title: "Oats",
             category: "food",
             price: "265.00"
           },
@@ -376,48 +357,42 @@ const ProductApi = [
           {
             id: 1,
             img: require("../images/products/cosmatic1.png"),
-            title: "haldi powder",
-            gram: "15g. or 25g.",
+            title: "Lipstick",
             category: "cosmetics",
             price: "265.00"
           },
           {
             id: 2,
             img: require("../images/products/cosmetic2.png"),
-            title: "haldi powder",
-            gram: "15g. or 25g.",
+            title: "Nailpaint",
             category: "cosmetics",
             price: "265.00"
           },
           {
             id: 3,
             img: require("../images/products/cosmetic3.png"),
-            title: "haldi powder",
-            gram: "15g. or 25g.",
+            title: "Foundation",
             category: "cosmetics",
             price: "265.00"
           },
           {
             id: 4,
             img: require("../images/products/cosmetic4.png"),
-            title: "haldi powder",
-            gram: "15g. or 25g.",
+            title: "Makeup Brushes",
             category: "cosmetics",
             price: "265.00"
           },
           {
             id: 5,
             img: require("../images/products/cosmetic5.png"),
-            title: "haldi powder",
-            gram: "15g. or 25g.",
+            title: "Face Powder",
             category: "cosmetics",
             price: "265.00"
           },
           {
             id: 6,
             img: require("../images/products/cosmetic6.png"),
-            title: "haldi powder",
-            gram: "15g. or 25g.",
+            title: "Concealer",
             category: "cosmetics",
             price: "265.00"
           },

@@ -65,7 +65,7 @@ const ProductUs = () => {
                     </h4>
                   </div>
                   <div className="price-box">
-                    <span className="regular-price">{product.gram}</span>
+                    {/* <span className="regular-price">{product.gram}</span> */}
                     <span className="old-price">
                       <del></del>
                     </span>

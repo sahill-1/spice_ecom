@@ -56,7 +56,7 @@ const Footer = () => {
                             <div className="product-name">
                               <h4 className="h5">
                                 <NavLink href="product-details.html">
-                                  chaat masala
+                                  Chaat masala
                                 </NavLink>
                               </h4>
                             </div>
@@ -69,7 +69,7 @@ const Footer = () => {
                             <div className="product-name">
                               <h4 className="h5">
                                 <NavLink href="product-details.html">
-                                  chicken masala
+                                  Chicken masala
                                 </NavLink>
                               </h4>
                             </div>
@@ -82,7 +82,33 @@ const Footer = () => {
                             <div className="product-name">
                               <h4 className="h5">
                                 <NavLink href="product-details.html">
-                                  chole and chana masala
+                                  Kasuri Methi
+                                </NavLink>
+                              </h4>
+                            </div>
+                          </div>
+                        </div>
+                      </li>
+                      <li>
+                        <div className="single-item single-item__footer-category">
+                          <div className="product-description">
+                            <div className="product-name">
+                              <h4 className="h5">
+                                <NavLink href="product-details.html">
+                                  Sneakers for Men
+                                </NavLink>
+                              </h4>
+                            </div>
+                          </div>
+                        </div>
+                      </li>
+                      <li>
+                        <div className="single-item single-item__footer-category">
+                          <div className="product-description">
+                            <div className="product-name">
+                              <h4 className="h5">
+                                <NavLink href="product-details.html">
+                                  Green Kurti For Women
                                 </NavLink>
                               </h4>
                             </div>
@@ -106,7 +132,7 @@ const Footer = () => {
                             <div className="product-name">
                               <h4 className="h5">
                                 <NavLink href="product-details.html">
-                                  haldi powder
+                                  Korma
                                 </NavLink>
                               </h4>
                             </div>
@@ -119,7 +145,7 @@ const Footer = () => {
                             <div className="product-name">
                               <h4 className="h5">
                                 <NavLink href="product-details.html">
-                                  kasuri methi
+                                  daily kids footwear
                                 </NavLink>
                               </h4>
                             </div>
@@ -132,7 +158,33 @@ const Footer = () => {
                             <div className="product-name">
                               <h4 className="h5">
                                 <NavLink href="product-details.html">
-                                  korma
+                                Bell Bottom Jeans For Women
+                                </NavLink>
+                              </h4>
+                            </div>
+                          </div>
+                        </div>
+                      </li>
+                      <li>
+                        <div className="single-item single-item__footer-category">
+                          <div className="product-description">
+                            <div className="product-name">
+                              <h4 className="h5">
+                                <NavLink href="product-details.html">
+                                Oats
+                                </NavLink>
+                              </h4>
+                            </div>
+                          </div>
+                        </div>
+                      </li>
+                      <li>
+                        <div className="single-item single-item__footer-category">
+                          <div className="product-description">
+                            <div className="product-name">
+                              <h4 className="h5">
+                                <NavLink href="product-details.html">
+                                Lipstick
                                 </NavLink>
                               </h4>
                             </div>

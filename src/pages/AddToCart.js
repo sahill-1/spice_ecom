@@ -180,15 +180,15 @@ const handleQuantityChange = (itemId, event) => {
                         <tbody>
                           <tr>
                             <td>Sub Total</td>
-                            <td>${totalPrice.toFixed(2)}</td>
+                            <td>Rs.{totalPrice.toFixed(2)}</td>
                           </tr>
                           <tr>
                             <td>Shipping</td>
-                            <td>${shipping.toFixed(2)}</td>
+                            <td>Rs.{shipping.toFixed(2)}</td>
                           </tr>
                           <tr className="total">
                             <td>Total</td>
-                            <td className="total-amount">${grandTotal.toFixed(2)}</td>
+                            <td className="total-amount">Rs.{grandTotal.toFixed(2)}</td>
                           </tr>
                         </tbody>
                       </table>

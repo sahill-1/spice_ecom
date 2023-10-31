@@ -49,7 +49,7 @@ const Products = () => {
                 </h4>
               </div>
               <div className="price-box">
-                <span className="regular-price">{gram}</span>
+                <span className="regular-price"></span>
                 <span className="old-price">
                   <del></del>
                 </span>

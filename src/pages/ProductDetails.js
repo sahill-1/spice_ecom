@@ -146,11 +146,12 @@ const ProductDetails = () => {
                     <h4>
                       <NavLink to="#">{product.title}</NavLink>
                     </h4>
+                    {product.gram ? <h3>{product.gram}</h3> : <div></div>}
                   </div>
                   <div className="price-box">
                     <span className="regular-price">{product.price}</span>
                     <span className="old-price">
-                      <del>$130.00</del>
+                      <del>Rs 330.00</del>
                     </span>
                   </div>
                   <p>
