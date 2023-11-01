@@ -5,13 +5,23 @@ import ProductUsImage from "../images/product.jpg";
 import ProductApi from "../API/ProductApi";
 import Navbar from "../components/Navbar";
 
+const shuffleArray = (array) => {
+  for (let i = array.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [array[i], array[j]] = [array[j], array[i]];
+  }
+  return array;
+};
+
 const ProductUs = () => {
-  const allProducts = ProductApi.flatMap(item => 
+
+  const allProducts = shuffleArray(ProductApi.flatMap(item => 
     item.categories[0].products.map(product => ({ 
         ...product, 
         categoryName: item.categories[0].name 
     }))
-);
+
+));
   return (
     <>
       <Navbar />
@@ -30,7 +40,7 @@ const ProductUs = () => {
                       <NavLink href="index.html">Home</NavLink>
                     </li>
                     <li className="breadcrumb-item active" aria-current="page">
-                      product us
+                      Product
                     </li>
                   </ul>
                 </nav>

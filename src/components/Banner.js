@@ -3,6 +3,8 @@ import banner1 from "../images/poster 1.jpg";
 import banner2 from "../images/poster 2.jpg";
 import { NavLink } from "react-router-dom";
 
+import newbanner1 from "../images/newbanners/Untitled design (10).png"
+import newbanner2 from "../images/newbanners/Untitled design (12).png"
 const Banner = () => {
   return (
     <>
@@ -13,7 +15,7 @@ const Banner = () => {
               <div className="img-container mb-sm-30">
                 <NavLink href="product-details.html">
                   <img
-                    src={banner1}
+                    src={newbanner1}
                     className="img-fuild w-100"
                     alt="banner-image"
                   />
@@ -24,7 +26,7 @@ const Banner = () => {
               <div className="img-container mb-sm-30">
                 <NavLink href="product-details.html">
                   <img
-                    src={banner2}
+                    src={newbanner2}
                     className="img-fuild w-100"
                     alt="banner-image"
                   />

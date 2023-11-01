@@ -459,11 +459,12 @@ p {
   display: flex;
   -ms-flex-pack: distribute;
   justify-content: space-around;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
   border-radius: 7px;
   padding: 34px 0;
   position: relative;
   z-index: 11;
-  background-color: #eb772f;
+  background-color: #fff;
 }
 
 .single-features-item {
@@ -499,7 +500,7 @@ p {
   transform: rotate(360deg);
 }
 .single-features-item .features-content h5 {
-  color: #fff;
+  color: #2c5aa5;
   font-size: 16px;
   line-height: 1.2;
   font-weight: 700;
@@ -508,7 +509,7 @@ p {
 }
 
 .single-features-item .features-content p {
-  color: #f9f9f9;
+  color: #2c5aa5;
   font-size: 14px;
   line-height: 1.5;
 }
