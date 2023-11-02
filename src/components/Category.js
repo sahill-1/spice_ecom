@@ -1,174 +1,122 @@
 import React from "react";
-import img1 from "../images/products/chicken masala.png";
-import img2 from "../images/products/haldi powder.png";
-import img3 from "../images/cat6.png";
-import img4 from "../images/cat7.png";
-import img5 from "../images/cat5.png";
-import img6 from "../images/cat8.png";
+// import img1 from "../images/products/chicken masala.png";
+// import img2 from "../images/products/haldi powder.png";
+// import img3 from "../images/cat6.png";
+// import img4 from "../images/cat7.png";
+// import img5 from "../images/cat5.png";
+// import img6 from "../images/cat8.png";
+import spices from "../images/newbanners/spices.jpg";
+import masale from "../images/newbanners/masale.jpg";
+import fashion from "../images/newbanners/fashionapparel.jpg";
+import footwear from "../images/newbanners/footwear.jpg"
+import food from "../images/newbanners/foodbeverge.jpg";
+import cosmetics from "../images/newbanners/cosmetics.jpg";
+
 import { NavLink } from "react-router-dom";
+import "./Category.css";
 
 const Category = () => {
   return (
     <>
-      <section className="popular-category pb-md-30 pb-sm-30">
-        <div className="container">
-          <div className="row justify-content-center">
-            <div className="col-12">
-              <div className="section-title text-center">
-                <h2>Popular Categories</h2>
-              </div>
-            </div>
-          </div>
-          <div className="row justify-content-center">
-            <div className="col-lg-3 col-md-6 col-sm-6 px-4 mb-5">
-              <div className="category-single-item mb-md-30 mb-sm-30">
-                <div className="category-item-inner color4 text-center">
-                  <div className="category-content">
-                    <h2>
-                      <NavLink href="product-details.html">Masala</NavLink>
-                    </h2>
-                    <p>15 product</p>
-                  </div>
-                  <div className="category-thumb">
-                    <NavLink href="product-details.html">
-                      <img src={img1} alt="" style={{ height: "225px" }} />
-                    </NavLink>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="col-lg-3 col-md-6 col-sm-6 px-4 mb-5">
-              <div className="category-single-item mb-md-30 mb-sm-30">
-                <div className="category-item-inner color4 text-center">
-                  <div className="category-content">
-                    <h2>
-                      <NavLink href="product-details.html">Spices</NavLink>
-                    </h2>
-                    <p>5 product</p>
-                  </div>
-                  <div className="category-thumb">
-                    <NavLink href="product-details.html">
-                      <img src={img2} alt="" style={{ height: "225px" }} />
-                    </NavLink>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="col-lg-3 col-md-6 col-sm-6 px-4 mb-5">
-              <div className="category-single-item mb-md-30 mb-sm-30">
-                <div className="category-item-inner color4 text-center">
-                  <div className="category-content">
-                    <h2>
-                      <NavLink href="product-details.html">Footwear</NavLink>
-                    </h2>
-                    <p>7 product</p>
-                  </div>
-                  <div className="category-thumb">
-                    <NavLink href="product-details.html">
-                      <img src={img3} alt="" />
-                    </NavLink>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="col-lg-3 col-md-6 col-sm-6 px-4 mb-5">
-              <div className="category-single-item mb-md-30 mb-sm-30">
-                <div className="category-item-inner color4 text-center">
-                  <div className="category-content">
-                    <h2>
-                      <NavLink href="product-details.html">
-                        Fashion apparel
-                      </NavLink>
-                    </h2>
-                    <p>6 product</p>
-                  </div>
-                  <div className="category-thumb">
-                    <NavLink href="product-details.html">
-                      <img src={img4} alt="" />
-                    </NavLink>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="col-lg-3 col-md-6 col-sm-6 px-4 mb-5">
-              <div className="category-single-item mb-md-30 mb-sm-30">
-                <div className="category-item-inner color4 text-center">
-                  <div className="category-content">
-                    <h2>
-                      <NavLink href="product-details.html">
-                        Food and beverage
-                      </NavLink>
-                    </h2>
-                    <p>6 product</p>
-                  </div>
-                  <div className="category-thumb">
-                    <NavLink href="product-details.html">
-                      <img src={img5} alt="" />
-                    </NavLink>
-                  </div>
-                </div>
-              </div>
-            </div>{" "}
-            <div className="col-lg-3 col-md-6 col-sm-6 px-4 mb-5">
-              <div className="category-single-item mb-md-30 mb-sm-30">
-                <div className="category-item-inner color4 text-center">
-                  <div className="category-content">
-                    <h2>
-                      <NavLink href="product-details.html">Cosmetics</NavLink>
-                    </h2>
-                    <p>6 product</p>
-                  </div>
-                  <div className="category-thumb">
-                    <NavLink href="product-details.html">
-                      <img src={img6} alt="" />
-                    </NavLink>
-                  </div>
-                </div>
-              </div>
-            </div>{" "}
-              {/* <div className="col-lg-3 col-md-6 col-sm-6 px-4 mb-5">
-                <div className="category-single-item mb-md-30 mb-sm-30">
-                  <div className="category-item-inner color4 text-center">
-                    <div className="category-content">
-                      <h2>
-                        <NavLink href="product-details.html">
-                          Fashion apparel
-                        </NavLink>
-                      </h2>
-                      <p>2 product</p>
-                    </div>
-                    <div className="category-thumb">
-                      <NavLink href="product-details.html">
-                        <img src={img4} alt="" />
-                      </NavLink>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="col-lg-3 col-md-6 col-sm-6 px-4 mb-5">
-                <div className="category-single-item mb-md-30 mb-sm-30">
-                  <div className="category-item-inner color4 text-center">
-                    <div className="category-content">
-                      <h2>
-                        <NavLink href="product-details.html">
-                          Fashion apparel
-                        </NavLink>
-                      </h2>
-                      <p>2 product</p>
-                    </div>
-                    <div className="category-thumb">
-                      <NavLink href="product-details.html">
-                        <img src={img4} alt="" />
-                      </NavLink>
-                    </div>
-                  </div>
-                </div>
-              </div> */}
-          </div>
-        </div>
-      </section>
+      <div className="wrapper">
+  <h1>Top Categories</h1>
+  <div className="cols">
+  <div className="col" ontouchstart="this.classList.toggle('hover');">
+				<div className="container">
+					<div className="front" style={{backgroundImage: `url(${spices})`}}>
+						<div className="inner">
+							<p>Spices</p>
+              {/* <span>Lorem ipsum</span> */}
+						</div>
+					</div>
+					<div className="back">
+						<div className="inner">
+              <p>Add flavor to your dishes with our aromatic and exotic spice collection.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div className="col" ontouchstart="this.classList.toggle('hover');">
+				<div className="container">
+					<div className="front" style={{backgroundImage: `url(${masale})`}}>
+						<div className="inner">
+							<p>Masala</p>
+              {/* <span>Lorem ipsum</span> */}
+						</div>
+					</div>
+					<div className="back">
+						<div className="inner">
+							<p>Explore our rich masale range for authentic and delightful culinary experiences.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div className="col" ontouchstart="this.classList.toggle('hover');">
+				<div className="container">
+					<div className="front" style={{backgroundImage: `url(${fashion})`}}>
+						<div className="inner">
+							<p>Fashion & Apparel</p>
+              {/* <span>Lorem ipsum</span> */}
+						</div>
+					</div>
+					<div className="back">
+						<div className="inner">
+							<p>Elevate your style with our trendy fashion and chic apparel selections.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div className="col" ontouchstart="this.classList.toggle('hover');">
+				<div className="container">
+					<div className="front" style={{backgroundImage: `url(${cosmetics})`}}>
+						<div className="inner">
+							<p>Cosmetics</p>
+              {/* <span>Lorem ipsum</span> */}
+						</div>
+					</div>
+					<div className="back">
+						<div className="inner">
+							<p>Enhance your beauty with our high-quality cosmetic products and skincare essentials.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div className="col" ontouchstart="this.classList.toggle('hover');">
+				<div className="container">
+					<div className="front" style={{backgroundImage: `url(${food})`}}>
+						<div className="inner">
+							<p>Food & Beverages</p>
+              {/* <span>Lorem ipsum</span> */}
+						</div>
+					</div>
+					<div className="back">
+						<div className="inner">
+							<p>Savor the finest cuisine and indulge in a variety of refreshing beverages.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div className="col" ontouchstart="this.classList.toggle('hover');">
+				<div className="container">
+					<div className="front" style={{backgroundImage: `url(${footwear})`}}>
+						<div className="inner">
+							<p>Footwear</p>
+						</div>
+					</div>
+					<div className="back">
+						<div className="inner">
+							<p>Step out in style with our fashionable and comfortable footwear collection.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+ </div>
     </>
   );
 };
 
 export default Category;
+
+

@@ -162,7 +162,7 @@ const ProductDetails = () => {
                     eu, suscipit id nulla.
                   </p>
                   <div className="action-link mb-20">
-                    <a href="#" className="add-to-cart" onClick={addToCart}>
+                    <a href="/" className="add-to-cart" onClick={addToCart}>
                       add to cart
                     </a>
 

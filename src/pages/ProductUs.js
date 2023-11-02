@@ -14,11 +14,10 @@ const shuffleArray = (array) => {
 };
 
 const ProductUs = () => {
-
   const allProducts = shuffleArray(ProductApi.flatMap(item => 
     item.categories[0].products.map(product => ({ 
         ...product, 
-        categoryName: item.categories[0].name 
+        categoryName: item.categories[0].name
     }))
 
 ));

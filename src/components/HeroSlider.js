@@ -8,10 +8,10 @@ import img4 from "../images/spices banner 4.jpg";
 import img5 from "../images/spices banner 5.jpg";
 import img6 from "../images/spices banner 6.jpg";
 
-import newbanner1 from "../images/newbanners/grocery-banner.jpg"
-import newbanner2 from "../images/newbanners/garments-banner.jpg"
-import newbanner3 from "../images/newbanners/footwear-01.jpg";
-import newbanner4 from "../images/newbanners/footwear 4-01.jpg"
+import newbanner3 from "../images/newbanners/grocery-banner.jpg"
+import newbanner4 from "../images/newbanners/garments-banner.jpg"
+import newbanner1 from "../images/newbanners/Homepage Banner.png";
+import newbanner2 from "../images/newbanners/footwear 4-01.jpg"
 const HeroSlider = (props) => {
   const responsive = {
     superLargeDesktop: {

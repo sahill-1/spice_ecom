@@ -540,7 +540,7 @@ p {
   padding-bottom: 15px;
   margin-top: -8px;
   text-transform: capitalize;
-  font-family: "Berkshire Swash", cursive;
+  font-family: "Poppins", cursive;
 }
 
 .section-title h2:after {
@@ -615,7 +615,7 @@ p {
   line-height: 1.2;
   padding-bottom: 5px;
   text-transform: capitalize;
-  font-family: "Berkshire Swash", cursive;
+  font-family: "Poppins", cursive;
 }
 .category-content h2 a {
   color: #fff;
@@ -1134,7 +1134,7 @@ p {
   padding-bottom: 20px;
   display: inline-block;
   text-transform: capitalize;
-  font-family: "Berkshire Swash", cursive;
+  font-family: "Poppins", cursive;
 }
 
 .breadcrumb-wrap nav .breadcrumb {
@@ -1193,7 +1193,7 @@ p {
   font-weight: 800;
   margin-bottom: 15px;
   text-transform: capitalize;
-  font-family: "Berkshire Swash", cursive;
+  font-family: "Poppins", cursive;
 }
 
 .about-text-wrap h2 span {
@@ -1344,7 +1344,7 @@ p {
   font-weight: 600;
   text-transform: capitalize;
   padding-bottom: 30px;
-  font-family: "Berkshire Swash", cursive;
+  font-family: "Poppins", cursive;
 }
 
 .contact-message form input,
@@ -1385,7 +1385,7 @@ p {
   font-size: 24px;
   font-weight: 600;
   padding-bottom: 30px;
-  font-family: "Berkshire Swash", cursive;
+  font-family: "Poppins", cursive;
   text-transform: capitalize;
 }
 
