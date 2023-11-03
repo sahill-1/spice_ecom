@@ -14,6 +14,8 @@ const shuffleArray = (array) => {
 };
 
 const ProductUs = () => {
+  
+
   const allProducts = shuffleArray(ProductApi.flatMap(item => 
     item.categories[0].products.map(product => ({ 
         ...product, 
@@ -85,7 +87,6 @@ const ProductUs = () => {
           ))}
         </div>
       </div>
-
       <Footer />
     </>
   );

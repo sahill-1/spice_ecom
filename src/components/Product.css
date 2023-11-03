@@ -1,0 +1,124 @@
+
+
+/* FIRST ONE CODE */
+  .card {
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
+    border-radius: 15px;
+    width: 100%;
+    overflow: hidden;
+    transition: all 0.3s ease; 
+    padding: 30px 20px;
+  }
+  
+  .card:hover {
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
+  }
+  
+  .img-cont {
+    overflow: hidden;
+    position: relative;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 90%);
+  }
+  
+  .img-cont span {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    z-index: 3;
+    background-color: rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: light;
+    font-size: 30px;
+    opacity: 0;
+    transform: translateY(-100%);
+    transition: transform 0.3s ease-out, opacity 0.5s ease-out;
+    font-family: sans-serif;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 90%);
+  }
+  
+  .card:hover .img-cont span {
+    transform: translateY(0);
+    opacity: 1;
+  }
+  
+  .img-cont img {
+    z-index: 0;
+    width: 100%;
+    height: 100%;
+    transition: all 0.3s;
+  }
+  
+  .card:hover .img-cont img {
+    filter: blur(1.5px);
+    transform: scale(1.2);
+  }
+  
+  .content-cont {
+    padding: 20px;
+  }
+  
+  .card-header {
+    text-transform: uppercase;
+    font-weight: bold;
+    padding-bottom: 10px;
+    font-size: 20px;
+  }
+  
+  .card-body {
+    font-family: sans-serif;
+  }
+
+
+  /* sfdhhd */
+  .product-name {
+    font-family: 'Poppins', sans-serif; /* Use your desired font-family */
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .product-name h4 {
+    font-size: 1.5rem; /* Adjust the font size as needed */
+    margin: 0;
+    padding: 0;
+  }
+  
+  .product-name h4 a {
+    color: #333; /* Set your desired text color */
+    text-decoration: none;
+    transition: color 0.3s ease; /* Add a smooth color transition effect */
+  }
+  
+  .product-name h4 a:hover {
+    color: #ff6600; /* Change text color on hover */
+  }
+  
+  /* Add animation for the product name */
+  .product-name h4 a {
+    display: inline-block;
+    position: relative;
+  }
+  
+  .product-name h4 a::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: #ff6600; /* Set the desired underline color */
+    transform: scaleX(0);
+    transform-origin: bottom right;
+    transition: transform 0.3s ease;
+  }
+  
+  .product-name h4 a:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+  
+  

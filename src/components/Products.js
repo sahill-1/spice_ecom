@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import ProductApi from "../API/ProductApi";
 import { NavLink } from "react-router-dom";
-
+import "./Product.css";
 const Products = () => {
   const [productData, setProductData] = useState(ProductApi);
 
@@ -30,9 +30,11 @@ const Products = () => {
       return (
         <div className="col-lg-3 col-md-4 col-sm-6" key={id}>
           <div className="product-item">
-            <div className="product-thumb">
-              <NavLink to={`/product-details/${product.category}/${id}`}>
-                <img src={img} alt="" />
+            <div className="card">
+              <div className="img-cont">
+                {/* <span className="drop-down-window">25 USD</span> */}
+                <NavLink to={`/product-details/${product.category}/${id}`}>
+                <img className="img" src={img} alt="" />
               </NavLink>
               <div className="quick-view-link">
                 <NavLink to={`/product-details/${product.category}/${id}`}>
@@ -41,42 +43,21 @@ const Products = () => {
                   </span>
                 </NavLink>
               </div>
-            </div>
-            <div className="product-content text-center">
+              </div>
+              <div className="product-content text-center">
               <div className="product-name">
                 <h4 className="h5">
-                  <NavLink to="product-details.html">{title}</NavLink>
+                  <NavLink to={`/product-details/${product.category}/${id}`}>{title}</NavLink>
                 </h4>
               </div>
-              <div className="price-box">
-                <span className="regular-price"></span>
-                <span className="old-price">
-                  <del></del>
+            </div>
+              {/* <div className="content-cont">
+                <span className="card-header">Standard</span>
+                <span className="card-body">
+                  Get the most economic subscription and start your journey to
+                  the pro world{" "}
                 </span>
-              </div>
-              <div className="product-action-link">
-                {/* <NavLink
-                  to="#"
-                  data-bs-toggle="tooltip"
-                  aria-label="Wishlist"
-                  data-bs-original-title="Wishlist"
-                >
-                  <i className="fa-regular fa-heart"></i>
-                </NavLink> */}
-                {/* <NavLink
-                  to="/addtocart"
-                >
-                  <i className="fa-solid fa-bag-shopping"></i>
-                </NavLink> */}
-                {/* <NavLink
-                  to="#"
-                  data-bs-toggle="tooltip"
-                  aria-label="Compare"
-                  data-bs-original-title="Compare"
-                >
-                  <i className="fa-solid fa-code-compare"></i>
-                </NavLink> */}
-              </div>
+              </div> */}
             </div>
           </div>
         </div>
@@ -184,7 +165,9 @@ const Products = () => {
                   role="tabpanel"
                   aria-labelledby="nav-Masala-tab"
                 >
-                  <div className="row">{renderProducts(masalaProducts)}</div>
+                  <div className="row ">
+                    {renderProducts(masalaProducts)}
+                  </div>
                 </div>
                 <div
                   className="tab-pane fade"
@@ -236,3 +219,31 @@ const Products = () => {
 };
 
 export default Products;
+{
+  /* AAA<div className="product-thumb ">
+              <NavLink to={`/product-details/${product.category}/${id}`}>
+                <img src={img} alt="" />
+              </NavLink>
+    
+              FIRST<div className="quick-view-link">
+                <NavLink to={`/product-details/${product.category}/${id}`}>
+                  <span>
+                    <i className="fa-regular fa-eye"></i>
+                  </span>
+                </NavLink>
+              </div>FIRST
+            </div>AAA
+            BBB<div className="product-content text-center">
+              <div className="product-name">
+                <h4 className="h5">
+                  <NavLink to="product-details.html">{title}</NavLink>
+                </h4>
+              </div>
+              <div className="price-box">
+                <span className="regular-price"></span>
+                <span className="old-price">
+                  <del></del>
+                </span>
+              </div>
+            </div>BBB */
+}
