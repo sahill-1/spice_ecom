@@ -1,7 +1,9 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-import Logo from '../images/mr king logo.png';
-import Logo2 from "../images/newbanners/WhatsApp Image 2023-10-31 at 12.01.26 PM.jpeg";
+import Logo from "../images/mr king logo.png";
+import Logo2 from "../images/newbanners/logo.png";
+import { FaShoppingCart } from "react-icons/fa";
+
 const Navbar = () => {
   return (
     <>
@@ -45,6 +47,11 @@ const Navbar = () => {
                 <li className="nav-item">
                   <NavLink className="nav-link" to="/contact">
                     contact
+                  </NavLink>
+                </li>
+                <li>
+                  <NavLink className="nav-link" to="/addtocart">
+                    <FaShoppingCart style={{width:"50px", height:"25px"}}/>My Cart
                   </NavLink>
                 </li>
               </ul>

@@ -1,5 +1,4 @@
 import React from "react";
-// import Header from "./Header";
 import Navbar from './Navbar';
 import HeroSlider from "./HeroSlider";
 import Services from "./Services";
@@ -7,6 +6,7 @@ import Category from "./Category";
 import Products from "./Products";
 import Footer from "./Footer";
 import Banner from "./Banner";
+import WhatsNew from "./WhatsNew";
 // import Brand from "./Brand";
 
 const Home = () => {
@@ -16,8 +16,9 @@ const Home = () => {
       <Navbar />
       <HeroSlider />
       <Services />
+      <WhatsNew/>
       <Banner />
-      <Category />
+      {/* <Category />  */}
       <Products />
       {/* <Brand /> */}
       <Footer />

@@ -360,6 +360,9 @@ p {
 }
 
 /* ---------------------------------------------------- Navbar -------------------------------------------------- */
+.navbar {
+  background-color: aliceblue;
+}
 .navbar-brand img {
   height: 100px;
 }
@@ -379,7 +382,11 @@ p {
 .main-menu-area {
   border-bottom: 2px solid #d7d7d7;
 }
-
+.navbar-expand-lg .navbar-nav .nav-link.active {
+  color: #eb7f3a;
+  font-weight: 600;
+  text-decoration-line: underline;
+}
 .navbar-expand-lg .navbar-nav .nav-link {
   font-size: 17px;
   color: #333333;
@@ -644,7 +651,6 @@ p {
 
 /* ---------------------------------------------- Product ------------------------------------------------- */
 .product-tab {
-  padding-top: 60px;
   padding-bottom: 60px;
 }
 
@@ -898,7 +904,6 @@ p {
 
 .banner-statistics {
   padding-bottom: 60px;
-  padding-top: 60px;
 }
 
 .img-container {
@@ -914,7 +919,7 @@ p {
   content: "";
   position: absolute;
   pointer-events: none;
-  background-color: rgba(0, 0, 0, 0.3);
+  background-color: rgba(107, 106, 106, 0.3);
   -webkit-transition: 0.4s;
   transition: 0.4s;
   opacity: 0;

@@ -67,7 +67,7 @@ const Products = () => {
 
   return (
     <>
-      <section className="product-tab pt-60 pb-30">
+      <section className="product-tab pb-30">
         <div className="container">
           <div className="row">
             <div className="col-12">
