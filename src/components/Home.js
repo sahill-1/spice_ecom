@@ -7,18 +7,20 @@ import Products from "./Products";
 import Footer from "./Footer";
 import Banner from "./Banner";
 import WhatsNew from "./WhatsNew";
+import TopNavbar from "./TopNavbar";
 // import Brand from "./Brand";
 
 const Home = () => {
   return (
     <>
       {/* <Header /> */}
+      <TopNavbar />
       <Navbar />
       <HeroSlider />
       <Services />
       <WhatsNew/>
       <Banner />
-      {/* <Category />  */}
+      <Category /> 
       <Products />
       {/* <Brand /> */}
       <Footer />

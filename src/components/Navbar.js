@@ -8,10 +8,10 @@ const Navbar = () => {
   return (
     <>
       <section className="main-menu-area">
-        <nav className="navbar navbar-expand-lg ">
+        <nav className="navbar navbar-expand-lg navbar-light bg-light navbar-custom" style={{ fontFamily: "Arial, sans-serif" }}>
           <div className="container">
             <a className="navbar-brand" href="#">
-              <img src={Logo2} alt="" />
+              <img src={Logo2} alt="Logo" />
             </a>
             <button
               className="navbar-toggler"
@@ -28,30 +28,31 @@ const Navbar = () => {
               className="collapse navbar-collapse"
               id="navbarSupportedContent"
             >
-              <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
+              <ul className="navbar-nav ms-auto mb-2 mb-lg-0" style={{ fontFamily: "Arial, sans-serif" }}> {/* Changed font family */}
                 <li className="nav-item">
-                  <NavLink className="nav-link" to="/">
+                  <NavLink className="nav-link" to="/" activeClassName="active">
                     Home
                   </NavLink>
                 </li>
                 <li className="nav-item">
-                  <NavLink className="nav-link" to="/about">
+                  <NavLink className="nav-link" to="/about" activeClassName="active">
                     About
                   </NavLink>
                 </li>
                 <li className="nav-item">
-                  <NavLink className="nav-link" to="/product">
-                    product
+                  <NavLink className="nav-link" to="/product" activeClassName="active">
+                    Product
                   </NavLink>
                 </li>
                 <li className="nav-item">
-                  <NavLink className="nav-link" to="/contact">
-                    contact
+                  <NavLink className="nav-link" to="/contact" activeClassName="active">
+                    Contact
                   </NavLink>
                 </li>
-                <li>
-                  <NavLink className="nav-link" to="/addtocart">
-                    <FaShoppingCart style={{width:"50px", height:"25px"}}/>My Cart
+                <li className="nav-item">
+                  <NavLink className="nav-link" to="/addtocart" activeClassName="active">
+                    <FaShoppingCart style={{ width: "25px", height: "25px" }} />
+                    <span className="ms-1">My Cart</span>
                   </NavLink>
                 </li>
               </ul>

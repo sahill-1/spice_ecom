@@ -1,5 +1,27 @@
-@import url("https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@500;600;700&family=Poppins:wght@500;600;700;800&family=Rufina:wght@400;700&family=Work+Sans:wght@400;500&display=swap");
+.moving-text-container {
+  width: 100%;
+  overflow: hidden;
+  background-color: #ec9657;
+}
 
+.moving-text {
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  white-space: nowrap;
+  animation: moveText 14s linear infinite; /* Adjust animation duration and timing here */
+}
+@keyframes moveText {
+  from {
+    transform: translateX(100%); /* Start position: completely off-screen to the right */
+  }
+  to {
+    transform: translateX(-100%); /* End position: completely off-screen to the left */
+  }
+}
+
+
+@import url("https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@500;600;700&family=Poppins:wght@500;600;700;800&family=Rufina:wght@400;700&family=Work+Sans:wght@400;500&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -8,7 +30,6 @@
 .ratings {
   text-align: center;
 }
-
 :root {
   --card-heading: #0062bd;
   --text-color: #333e48;
@@ -17,7 +38,6 @@
   --transition: all 0.2s ease-in-out;
   --shadow: 0px 0px 6px 0px rgba(1, 1, 1, 0.3);
 }
-
 html {
   font-size: 62.5%;
   font-family: "Work Sans", sans-serif;
@@ -903,7 +923,7 @@ p {
 /* --------------------------------------------- Banner ----------------------------------------------- */
 
 .banner-statistics {
-  padding-bottom: 60px;
+  padding-bottom: 30px;
 }
 
 .img-container {
@@ -1899,8 +1919,8 @@ text-align: center;
     height: 80px;
   }
   .container {
-    padding-right: 15px;
-    padding-left: 15px;
+    /* padding-right: 15px;
+    padding-left: 15px; */
   }
   .service-features-inner {
     display: block;

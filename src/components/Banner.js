@@ -8,7 +8,7 @@ import newbanner2 from "../images/newbanners/Untitled design (12).png"
 const Banner = () => {
   return (
     <>
-      <div className="banner-statistics">
+      <div className="banner-statistics mt-5">
         <div className="container">
           <div className="row">
             <div className="col-md-6">

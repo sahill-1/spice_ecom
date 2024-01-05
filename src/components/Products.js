@@ -71,7 +71,7 @@ const Products = () => {
         <div className="container">
           <div className="row">
             <div className="col-12">
-              <div className="section-title text-center">
+              <div className="section-title text-center mt-5">
                 <h2>Our Products</h2>
               </div>
             </div>
