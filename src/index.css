@@ -410,7 +410,8 @@ p {
 .navbar-expand-lg .navbar-nav .nav-link {
   font-size: 17px;
   color: #333333;
-  padding: 16px 25px;
+  padding: 12px 20px;
+  font-family: Times, "Times New Roman", Georgia, serif;
   text-transform: uppercase;
 }
 
@@ -671,7 +672,7 @@ p {
 
 /* ---------------------------------------------- Product ------------------------------------------------- */
 .product-tab {
-  padding-bottom: 60px;
+  padding-bottom: 10px;
 }
 
 .nav-tabs .nav-link {
