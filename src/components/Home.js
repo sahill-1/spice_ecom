@@ -8,13 +8,11 @@ import Footer from "./Footer";
 import Banner from "./Banner";
 import WhatsNew from "./WhatsNew";
 import TopNavbar from "./TopNavbar";
-import MostLoved from "./MostLoved";
-// import Brand from "./Brand";
+import BannerOffer from "./BannerOffer";
 
 const Home = () => {
   return (
     <>
-      {/* <Header /> */}
       <TopNavbar />
       <Navbar />
       <HeroSlider />
@@ -22,8 +20,8 @@ const Home = () => {
       <WhatsNew/>
       <Banner />
       <Category /> 
+      <BannerOffer />
       <Products />
-      <MostLoved />
       {/* <Brand /> */}
       <Footer />
     </>

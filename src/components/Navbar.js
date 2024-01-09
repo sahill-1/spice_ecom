@@ -1,7 +1,7 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import Logo from "../images/mr king logo.png";
-import Logo2 from "../images/newbanners/logo.png";
+import Logo2 from "../images/newbanners/logo (2).png";
 import { FaShoppingCart } from "react-icons/fa";
 
 const Navbar = () => {
@@ -50,7 +50,7 @@ const Navbar = () => {
                   </NavLink>
                 </li>
                 <li className="nav-item">
-                  <NavLink className="nav-link" to="/addtocart" activeClassName="active">
+                  <NavLink className="nav-link custom-cart-button" to="/addtocart" activeClassName="active">
                     <FaShoppingCart style={{ width: "25px", height: "25px" }} />
                     <span className="ms-1">My Cart</span>
                   </NavLink>

@@ -16,7 +16,7 @@ const ProductApi = [
           {
             id: 2,
             img: require("../images/products/chole and chana masala.png"),
-            title: "chole and chana masala",
+            title: "chole chana masala",
             gram: "15g. or 25g.",
             category: "masala",
             price: "265.00"
