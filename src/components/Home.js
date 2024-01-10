@@ -8,8 +8,8 @@ import Footer from "./Footer";
 import Banner from "./Banner";
 import WhatsNew from "./WhatsNew";
 import TopNavbar from "./TopNavbar";
-import BannerOffer from "./BannerOffer";
-
+import FruitBanner from "./FruitBanner";
+import FashionBanner from "./FashionBanner";
 const Home = () => {
   return (
     <>
@@ -20,7 +20,8 @@ const Home = () => {
       <WhatsNew/>
       <Banner />
       <Category /> 
-      <BannerOffer />
+      <FruitBanner/>
+      <FashionBanner />
       <Products />
       {/* <Brand /> */}
       <Footer />

@@ -5,11 +5,12 @@
 }
 
 .moving-text {
+  font-size: 16px;
   color: white;
   display: flex;
   justify-content: space-around;
   white-space: nowrap;
-  animation: moveText 14s linear infinite;
+  animation: moveText 18s linear infinite;
 }
 @keyframes moveText {
   from {

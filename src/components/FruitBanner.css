@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,800');
+
+body{
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    min-width: 285px;
+}
+
+
+.container{
+    width: 95%;
+    margin: 0 auto;
+}
+
+/* Banner - shared styles */
+.banner{
+    background: orange;
+    padding: 1rem;
+    margin: 1rem;
+    min-height: 300px;
+    color: white;
+    line-height: 50px;
+    font-size: 30px;
+    letter-spacing: .1pt;
+    font-weight: 800;
+    position: relative;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,.50);
+    cursor: pointer;
+    transition: all 200ms ease-in;
+    box-sizing: border-box;
+}
+
+.banner:hover{
+    transform: scale(1.02);
+}
+
+/* Banner text - shared styles */
+.headline{
+    color: black;
+    line-height: 50px;
+    font-size: 30px;
+    font-weight: 800;
+    position: absolute;
+    margin-top: 135px;
+    position: absolute;
+}
+
+/* Banner One styles */
+.banner-one{
+    /* 483*343 */
+    background: url("");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* Banner SHOP NOW btn styles */
+.shop-btn{
+    position: absolute;
+    margin-top: 185px;
+    font-size: 20px;
+    padding: 5px 10px;
+    background: transparent;
+    border: 2px solid #dfdfdf;
+    color: white;
+    font-weight: 800;
+    transition: all 400ms ease-in-out;
+    cursor: pointer;
+}
+
+.shop-btn:hover{
+    background: white;
+    border: 2px solid transparent;
+    color: #303030;
+}
+
+/* Banner Two styles */
+.banner-two{
+    /* 548*386 */
+    background: url("");
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color:"black"
+}
+
+.banner-two .headline{
+    position: absolute;
+    top: 5px;
+    margin: 0px;
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 25px;
+}
+
+.banner-three{
+    /* 1136*386 */
+    background: url("");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.banner-three .headline{
+    line-height: 40px;
+    margin-top: 100px;
+}
+
+.banner-four{
+    /* 548*812 */
+    background: url("");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 600px;
+}
+
+.banner-four .headline{
+    font-size: 40px;
+    line-height: 50px;
+    position: absolute;
+    bottom: 80px;
+}
+
+.banner-four .subline{
+    position: absolute;
+    bottom: 10px;
+    line-height: 35px;
+}
+
+.clear-fix{
+    clear: both;
+}
+
+@media (min-width: 800px){
+    .banner-one, .banner-two{
+        width: 47%;
+        float: left;
+        margin-right: 0px;
+        margin-bottom: 0px;
+    }
+    
+    .banner-two{
+        margin-left: 2%;
+    }
+    
+}
+
+@media (min-width: 1000px){
+    .banner-one, .banner-two{
+        width: 33%;
+    }
+    
+    .banner-three{
+        width: 68%;
+    }
+        
+    .banner-four{
+        position: absolute;
+        width: 29%;
+        top: 0px;
+        right: 0px;
+        height: 617px;
+    }
+    
+}
+
+@media (min-width: 1400px){
+    .banner-four{
+        width: 30%;
+    }
+}
