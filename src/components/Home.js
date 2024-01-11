@@ -10,6 +10,7 @@ import WhatsNew from "./WhatsNew";
 import TopNavbar from "./TopNavbar";
 import FruitBanner from "./FruitBanner";
 import FashionBanner from "./FashionBanner";
+import SpicesBanner from "./SpicesBanner"
 const Home = () => {
   return (
     <>
@@ -22,6 +23,7 @@ const Home = () => {
       <Category /> 
       <FruitBanner/>
       <FashionBanner />
+      <SpicesBanner />
       <Products />
       {/* <Brand /> */}
       <Footer />

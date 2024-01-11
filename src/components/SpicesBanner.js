@@ -1,24 +1,24 @@
 import React from "react";
 import "./FruitBanner.css";
-const FruitBanner = () => {
+const SpicesBanner = () => {
   return (
     <>
-      <div className="section-title text-center mt-4">
-        <h2>Fashion & Apparel</h2>
+      <div className="section-title text-center mt-5">
+        <h2>Spices</h2>
       </div>
       <div className="container">
         <section className="banner-module">
           {/* Banner 1 */}
           <div className="banner banner-one">
             {/* Headline */}
-            <span className="headline">Fruits &amp; Vegetables</span>
+            <span className="headline">Spices &amp; </span>
           </div>
 
           {/* Banner 2 */}
           <div className="banner banner-two">
             {/* Headline */}
             <span className="headline">
-              QUALITY CLOTHING <br /> FROM TOP BRANDS
+              RAW SPICES <br /> FROM TOP BRANDS
             </span>
           </div>
 
@@ -48,4 +48,4 @@ const FruitBanner = () => {
   );
 };
 
-export default FruitBanner;
+export default SpicesBanner;
